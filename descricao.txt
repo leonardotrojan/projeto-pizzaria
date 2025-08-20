@@ -28,3 +28,6 @@ BACK-END:
     *envio das informações de cadastro via API para um banco SQL*
     *verificação de login por node.js*
     *envio dos pedidos via API por um JSON para o sistema*
+
+<a href="https://www.flaticon.com/br/icones-gratis/carrinho" title="carrinho ícones">Carrinho ícones criados por uicon - Flaticon</a>
+<a href="https://www.flaticon.com/br/icones-gratis/lata-de-lixo" title="lata de lixo ícones">Lata de lixo ícones criados por Freepik - Flaticon</a>
