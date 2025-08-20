@@ -1,0 +1,30 @@
+FRONT-END:
+
+    tela inicial:
+        - MenuNavBar -> inicio; login; menu; contato;
+        - Header -> background + nome + frase simples
+        - Section1 -> Direcionamento para a página do login
+        - Section2 -> Sabores + Descrição + ícones
+        - Footer -> informações de contato
+
+    tela login:
+        - Formulário (post)
+        - input(text)
+        - input(password)
+        - input(submit)
+        - "Novo aqui? faça o cadastro"
+
+    tela cadastro:
+        - Formulário (post)
+        - input(text) -> username
+        - input(text) -> endereço
+        - input(tel) -> telefone
+        - input(password) -> senha
+        - input(password) -> confirmar senha
+        - input(submit)
+
+BACK-END:
+
+    *envio das informações de cadastro via API para um banco SQL*
+    *verificação de login por node.js*
+    *envio dos pedidos via API por um JSON para o sistema*
