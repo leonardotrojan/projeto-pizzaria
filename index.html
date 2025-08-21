@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pizzaria</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/inputmask/5.0.8/inputmask.min.js" defer></script>
 </head>
 <body>
     <nav id="navBar">
@@ -20,7 +21,23 @@
     </header>
     <main>
         <section id="login">
-
+            <article id="loginArt" class="show">
+                <div id="text">
+                    <p><span id="dologin">Faça login</span><br><span id="peca">e peça sua pizza</span><br><span id="ja">JÁ</span><img src="imagens/icone-motoboy.png" alt="motoboy"></p>
+                </div>
+                <form action="login.php" method="post">
+                    <label for="email">Digite seu email:</label>
+                    <input type="email" name="email" id="email" placeholder="xxxxxxx@gmail.com" required>
+                    <label for="senha">Digite sua senha:</label>
+                    <input type="password" name="senha" id="senha">
+                    <input type="submit" id="submit" value="Entrar">
+                    <p>Novo por aqui? <a href="login/cadastro.html">Faça seu cadastro</a></p>
+                </form>
+            </article>
+            <article id="loginFeito" class="hide">
+                <p>Você já está conectado em sua conta! Aproveite e faça o seu pedido 😋</p>
+            </article>
+        </main>
         </section>
         <section id="tamanhos">
 
@@ -31,7 +48,6 @@
         <section id="bebidas">
             
         </section>
-    </main>
     <footer>
 
     </footer>
